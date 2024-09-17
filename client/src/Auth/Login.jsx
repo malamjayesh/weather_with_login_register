@@ -18,7 +18,7 @@ const Login = () => {
       );
       if (response.status === 200) {
         localStorage.setItem("token", response.data.token);
-        alert("Login SuccessFully");
+        alert("Login SuccessFuly");
         navigate("/home");
       }
     } catch (error) {
