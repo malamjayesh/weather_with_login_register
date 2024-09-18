@@ -58,7 +58,6 @@ function Home() {
           aria-label="Toggle Theme"
         ></button>
       </header>
-
       <div className="w-full max-w-md bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
         <input
           type="text"
