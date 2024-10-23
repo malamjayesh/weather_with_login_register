@@ -36,7 +36,6 @@ function Home() {
   function handleClick() {
     fetchApiData();
   }
-
   return (
     <div className="min-h-screen flex flex-col items-center justify-center p-6 bg-gray-100 dark:bg-gray-900">
       <header className="mb-8 flex flex-col items-center space-y-4">
