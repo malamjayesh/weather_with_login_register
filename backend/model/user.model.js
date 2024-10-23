@@ -14,4 +14,4 @@ const userSchema = new mongoose.Schema({
         type:String
     }
 })
-module.exports = mongoose.model("baba",userSchema)
+module.exports = mongoose.model("card",userSchema)

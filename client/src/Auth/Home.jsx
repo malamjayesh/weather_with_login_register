@@ -15,13 +15,6 @@ function Home() {
     alert("You Are Loggedout");
     navigate("/login");
   };
-  // useEffect(() => {
-  //   const token = localStorage.getItem("token");
-  //   if (!token) {
-  //     navigate("/login");
-  //   }
-  // }, [navigate]);
-
   function handleChange(e) {
     const value = e.target.value;
     setCity(value);
