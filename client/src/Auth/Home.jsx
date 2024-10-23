@@ -8,7 +8,6 @@ function Home() {
   const [city, setCity] = useState("keshod");
   const [weather, setWeather] = useState(null);
   const [loading, setLoading] = useState(false);
-
   const navigate = useNavigate();
   const handleLogout = () => {
     localStorage.removeItem("tokem");
@@ -22,7 +21,6 @@ function Home() {
       setWeather(null);
     }
   }
-
   const fetchApiData = async () => {
     setLoading(true);
     try {
@@ -35,7 +33,6 @@ function Home() {
     }
     setLoading(false);
   };
-
   function handleClick() {
     fetchApiData();
   }
@@ -71,7 +68,6 @@ function Home() {
             <RiLoader2Line size={50} className="animate-spin text-blue-600" />
           </div>
         )}
-
         {!loading && weather && (
           <div className="mt-6 text-center">
             <h2 className="text-2xl font-semibold mb-3 text-gray-800 dark:text-gray-100">
